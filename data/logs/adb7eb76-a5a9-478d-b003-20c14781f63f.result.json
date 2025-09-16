@@ -1,0 +1,313 @@
+{
+  "raw_correct": 9,
+  "scaled_reading": 230,
+  "provisional_ci": [
+    170,
+    290
+  ],
+  "cefr": "A2",
+  "insights": [],
+  "disclaimer": "TOEIC is a registered trademark of ETS. This product is not endorsed or approved by ETS.",
+  "responses": [
+    {
+      "itemId": "r5_001",
+      "part": "R5",
+      "stem": "The manager ____ the report by Friday.",
+      "options": [
+        "expects",
+        "expecting",
+        "to expect",
+        "expected"
+      ],
+      "answer": 0,
+      "selected": 0,
+      "correct": true,
+      "explanation": "三単現のs。主語the managerに合わせexpects。expectingやto expectは形が合わない。"
+    },
+    {
+      "itemId": "r5_002",
+      "part": "R5",
+      "stem": "Our team will meet ____ the morning to finalize the plan.",
+      "options": [
+        "on",
+        "in",
+        "at",
+        "by"
+      ],
+      "answer": 1,
+      "selected": 0,
+      "correct": false,
+      "explanation": "時の部分はin the morningが自然。on/at/byは用法が異なる。"
+    },
+    {
+      "itemId": "r5_003",
+      "part": "R5",
+      "stem": "The new policy is intended to ____ productivity across departments.",
+      "options": [
+        "raise",
+        "arise",
+        "raise up",
+        "rising"
+      ],
+      "answer": 0,
+      "selected": 0,
+      "correct": true,
+      "explanation": "目的は生産性を上げる→raise。ariseは自動詞、raise upは不自然。"
+    },
+    {
+      "itemId": "r5_004",
+      "part": "R5",
+      "stem": "Employees are encouraged to submit suggestions ____ improving workflow.",
+      "options": [
+        "for",
+        "to",
+        "about",
+        "with"
+      ],
+      "answer": 0,
+      "selected": 0,
+      "correct": true,
+      "explanation": "suggestions for ~ing の定型。to/about/with はこのコロケーションでは不適。"
+    },
+    {
+      "itemId": "r5_005",
+      "part": "R5",
+      "stem": "Ms. Chen was ____ to lead the project due to her experience.",
+      "options": [
+        "selected",
+        "select",
+        "selection",
+        "selecting"
+      ],
+      "answer": 0,
+      "selected": 0,
+      "correct": true,
+      "explanation": "was selected と受動。lead を導くのは人→過去分詞が妥当。"
+    },
+    {
+      "itemId": "r5_006",
+      "part": "R5",
+      "stem": "The device comes with a one-year ____ covering parts and labor.",
+      "options": [
+        "warranty",
+        "warning",
+        "guarantee",
+        "assurance"
+      ],
+      "answer": 0,
+      "selected": 0,
+      "correct": true,
+      "explanation": "保証はwarranty。warningは警告、guaranteeも可だが製品仕様ではwarrantyが一般的。"
+    },
+    {
+      "itemId": "r5_007",
+      "part": "R5",
+      "stem": "Because the site was under maintenance, customers ____ longer than usual.",
+      "options": [
+        "waited",
+        "were wait",
+        "waiting",
+        "have wait"
+      ],
+      "answer": 0,
+      "selected": 0,
+      "correct": true,
+      "explanation": "過去の事実→waited。were wait / have wait は文法誤り。"
+    },
+    {
+      "itemId": "r5_008",
+      "part": "R5",
+      "stem": "Please review the attached draft and provide any ____ by Thursday.",
+      "options": [
+        "feedbacks",
+        "feedback",
+        "informations",
+        "information"
+      ],
+      "answer": 1,
+      "selected": 0,
+      "correct": false,
+      "explanation": "feedback/informationは不可算。複数形不可。"
+    },
+    {
+      "itemId": "r5_009",
+      "part": "R5",
+      "stem": "The CEO emphasized that the new product must be both affordable ____ reliable.",
+      "options": [
+        "and",
+        "or",
+        "but",
+        "nor"
+      ],
+      "answer": 0,
+      "selected": 0,
+      "correct": true,
+      "explanation": "both A and B のand。並列接続。"
+    },
+    {
+      "itemId": "r5_010",
+      "part": "R5",
+      "stem": "All orders placed before noon ____ the same day.",
+      "options": [
+        "ship",
+        "are shipped",
+        "shipped",
+        "shipping"
+      ],
+      "answer": 1,
+      "selected": 0,
+      "correct": false,
+      "explanation": "一般的な受動の現在→are shipped。ship単体は三単現のsがなく不一致。"
+    },
+    {
+      "itemId": "r5_011",
+      "part": "R5",
+      "stem": "The marketing team is looking for a ____ designer with experience in B2C campaigns.",
+      "options": [
+        "creative",
+        "creation",
+        "creatively",
+        "creativity"
+      ],
+      "answer": 0,
+      "selected": 0,
+      "correct": true,
+      "explanation": "a の後は形容詞 creative + 名詞 designer。語形に注意。"
+    },
+    {
+      "itemId": "r5_012",
+      "part": "R5",
+      "stem": "Due to unexpected demand, the supply of spare parts has been ____.",
+      "options": [
+        "limited",
+        "limiting",
+        "limit",
+        "limits"
+      ],
+      "answer": 0,
+      "selected": 0,
+      "correct": true,
+      "explanation": "has been + 過去分詞。状態の受動。limited が自然。"
+    },
+    {
+      "itemId": "r7_001",
+      "part": "R7",
+      "stem": "Notice: The office cafeteria will be closed on Tuesday for equipment maintenance. Employees should bring their own lunch or visit nearby restaurants.",
+      "options": [
+        "The cafeteria is closed every Tuesday.",
+        "Employees cannot eat lunch on Tuesday.",
+        "The cafeteria will not operate on a specific day.",
+        "Only breakfast will be served on Tuesday."
+      ],
+      "answer": 2,
+      "selected": 0,
+      "correct": false,
+      "explanation": "特定の火曜に休業という告知→運営しない日がある、が要旨。"
+    },
+    {
+      "itemId": "r7_002",
+      "part": "R7",
+      "stem": "Email: Hi team, the client meeting has been moved from 10 a.m. to 2 p.m. to accommodate travel delays. Please adjust your schedules accordingly.",
+      "options": [
+        "The meeting was canceled.",
+        "The meeting will be held earlier.",
+        "The meeting time has been postponed.",
+        "The location of the meeting changed."
+      ],
+      "answer": 2,
+      "selected": 0,
+      "correct": false,
+      "explanation": "moved from 10 to 2 →延期（後ろへ移動）。"
+    },
+    {
+      "itemId": "r7_003",
+      "part": "R7",
+      "stem": "Article: Green Metro plans to add two new train lines by 2027, aiming to reduce commute times by up to 20 percent for suburban riders.",
+      "options": [
+        "Green Metro will reduce fares by 20 percent.",
+        "The expansion is intended to shorten travel times.",
+        "Two lines will open next year.",
+        "The plan targets downtown commuters only."
+      ],
+      "answer": 1,
+      "selected": 0,
+      "correct": false,
+      "explanation": "目的は通勤時間短縮。数字（20%）は効果の程度。"
+    },
+    {
+      "itemId": "r7_004",
+      "part": "R7",
+      "stem": "Message: Reminder—Please submit your monthly expense reports by the 5th of each month to ensure timely reimbursement.",
+      "options": [
+        "Reports are due at the end of the month.",
+        "Reimbursement happens only in December.",
+        "Submitting reports on time helps payment processing.",
+        "Only managers must submit reports."
+      ],
+      "answer": 2,
+      "selected": 0,
+      "correct": false,
+      "explanation": "期限遵守で払い戻しが円滑、という趣旨→目的の選択。"
+    },
+    {
+      "itemId": "r7_005",
+      "part": "R7",
+      "stem": "Flyer: Weekend Market—Local farmers will sell fresh produce from 9 a.m. to 1 p.m. at Riverside Park. Bring your own bags.",
+      "options": [
+        "The market sells only packaged goods.",
+        "The event takes place in the evening.",
+        "Visitors are encouraged to carry bags.",
+        "Only farmers can enter the park."
+      ],
+      "answer": 2,
+      "selected": 0,
+      "correct": false,
+      "explanation": "Bring your own bags の言い換え→持参を促す。"
+    },
+    {
+      "itemId": "r7_006",
+      "part": "R7",
+      "stem": "Internal Note: The software update improves performance, but some users may need to clear their cache to see changes.",
+      "options": [
+        "The update slows down the software.",
+        "Users will automatically see changes without action.",
+        "Clearing cache might be necessary after the update.",
+        "The update is not about performance."
+      ],
+      "answer": 2,
+      "selected": 0,
+      "correct": false,
+      "explanation": "性能改善。ただし変更反映にキャッシュクリアが必要な場合あり、の条件文。"
+    },
+    {
+      "itemId": "r7_007",
+      "part": "R7",
+      "stem": "Review: The hotel is conveniently located near the station, but the rooms are small. Staff were friendly and helpful.",
+      "options": [
+        "The reviewer disliked the staff.",
+        "The location is far from transportation.",
+        "The rooms are spacious.",
+        "The hotel has pros and cons."
+      ],
+      "answer": 3,
+      "selected": 0,
+      "correct": false,
+      "explanation": "立地は良いが部屋が狭い→利点と欠点の両方の記述。"
+    },
+    {
+      "itemId": "r7_008",
+      "part": "R7",
+      "stem": "Memo: To reduce paper waste, the company will adopt digital signatures for internal approvals starting next month.",
+      "options": [
+        "The company will print more documents.",
+        "Paper use is expected to decrease.",
+        "Digital signatures will be optional this year.",
+        "Approvals will stop next month."
+      ],
+      "answer": 1,
+      "selected": 0,
+      "correct": false,
+      "explanation": "紙の削減が目的→デジタル署名採用で紙使用が減る、が妥当。"
+    }
+  ]
+}

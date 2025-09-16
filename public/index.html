@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reading 簡易アセスメント (PoC)</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Reading 簡易アセスメント（20問・≤10分）</h1>
+    </header>
+
+    <main id="app">
+      <section id="consent-view" class="view active">
+        <h2>ご利用前の同意</h2>
+        <div class="box">
+          <p>本アセスメントは社内PoCです。20問・10分以内のReading力の簡易推定を行います。</p>
+          <ul>
+            <li>収集: 回答内容、反応時間（ミリ秒）、アイテムID、ユーザーエージェント</li>
+            <li>目的: 品質改善・将来の適応テスト/等化検討のため</li>
+            <li>期間: PoC期間中（削除依頼に応じて消去）</li>
+            <li>個人情報（氏名・メール等）は収集しません</li>
+            <li>結果は暫定推定。CEFRは目安表示です</li>
+          </ul>
+        </div>
+        <button id="start-btn" class="primary">同意して始める</button>
+      </section>
+
+      <section id="quiz-view" class="view">
+        <div class="status">
+          <div>残り問題: <span id="remain"></span> / 20</div>
+          <div>全体タイマ: <span id="global-timer">10:00</span></div>
+          <div>パート: <span id="part"></span></div>
+        </div>
+        <div id="qnav" class="qnav"></div>
+        <div id="stem" class="stem"></div>
+        <div id="options" class="options"></div>
+        <div class="actions">
+          <button id="prev-btn">前へ</button>
+          <button id="next-btn">次へ</button>
+          <button id="finish-btn" class="primary">結果を送信する</button>
+        </div>
+      </section>
+
+      <section id="result-view" class="view">
+        <h2>結果</h2>
+        <div class="result-grid">
+          <div><strong>暫定Readingスコア</strong><div id="scaled"></div></div>
+          <div><strong>CEFR目安</strong><div id="cefr"></div></div>
+          <div><strong>95%擬似幅</strong><div id="ci"></div></div>
+        </div>
+        <h3>所見（簡易）</h3>
+        <div id="insights-loading" class="loading" style="display:none;">所見を生成中...</div>
+        <ul id="insights"></ul>
+        <h3>各問の回答と解説</h3>
+        <div id="details-loading" class="loading" style="display:none;">解説を生成中...</div>
+        <div id="details"></div>
+        <button id="retry-btn">最初に戻る</button>
+      </section>
+    </main>
+
+    <footer>
+      <small>
+        CEFR表示は公開閾値に基づく目安であり、厳密な認定ではありません。<br />
+        TOEIC is a registered trademark of ETS. This product is not endorsed or approved by ETS.
+      </small>
+    </footer>
+
+    <script src="/app.js" defer></script>
+  </body>
+  </html>

@@ -1,0 +1,32 @@
+{
+  "name": "toeic-assessment-poc",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "predev": "sh -c 'p=$(lsof -ti:3051 || true); if [ -n \"$p\" ]; then echo Killing PID $p on :3051; kill $p || true; sleep 0.5; p2=$(lsof -ti:3051 || true); if [ -n \"$p2\" ]; then echo Force-killing PID $p2 on :3051; kill -9 $p2 || true; fi; fi'",
+    "dev": "TS_NODE_TRANSPILE_ONLY=1 node --loader ts-node/esm src/index.ts",
+    "predev:watch": "sh -c 'p=$(lsof -ti:3051 || true); if [ -n \"$p\" ]; then echo Killing PID $p on :3051; kill $p || true; sleep 0.5; p2=$(lsof -ti:3051 || true); if [ -n \"$p2\" ]; then echo Force-killing PID $p2 on :3051; kill -9 $p2 || true; fi; fi'",
+    "dev:watch": "nodemon --watch src --ext ts,json --exec \"node --loader ts-node/esm src/index.ts\"",
+    "dev:bg": "nohup npm run dev > server.log 2>&1 & echo $!",
+    "logs": "tail -f server.log",
+    "stop": "sh -c 'p=$(lsof -ti:3051); if [ -n \"$p\" ]; then kill $p; fi'",
+    "start": "node dist/index.js",
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "@mastra/core": "^0.16.3",
+    "openai": "^4.55.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "uuid": "^9.0.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

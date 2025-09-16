@@ -1,0 +1,24 @@
+{
+  "raw_correct": 9,
+  "scaled_reading": 230,
+  "provisional_ci": [
+    170,
+    290
+  ],
+  "cefr": "A2",
+  "insights": [
+    {
+      "skill": "grammar:tense",
+      "note": "過去形と現在形の使い分けを練習する。"
+    },
+    {
+      "skill": "grammar:voice",
+      "note": "受動態の文を作る練習をする。"
+    },
+    {
+      "skill": "inference:main-purpose",
+      "note": "文章の主旨を要約する練習をする。"
+    }
+  ],
+  "disclaimer": "TOEIC is a registered trademark of ETS. This product is not endorsed or approved by ETS."
+}

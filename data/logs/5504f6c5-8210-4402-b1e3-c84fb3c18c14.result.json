@@ -1,0 +1,24 @@
+{
+  "raw_correct": 9,
+  "scaled_reading": 230,
+  "provisional_ci": [
+    170,
+    290
+  ],
+  "cefr": "A2",
+  "insights": [
+    {
+      "skill": "grammar:countability",
+      "note": "可算名詞と不可算名詞を区別する練習をする。"
+    },
+    {
+      "skill": "inference:detail",
+      "note": "文章を読み、重要な情報をメモする習慣をつける。"
+    },
+    {
+      "skill": "vocab:paraphrase",
+      "note": "同義語を使った言い換え練習を毎日行う。"
+    }
+  ],
+  "disclaimer": "TOEIC is a registered trademark of ETS. This product is not endorsed or approved by ETS."
+}

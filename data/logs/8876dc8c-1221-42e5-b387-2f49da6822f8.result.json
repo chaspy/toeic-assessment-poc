@@ -1,0 +1,24 @@
+{
+  "raw_correct": 9,
+  "scaled_reading": 230,
+  "provisional_ci": [
+    170,
+    290
+  ],
+  "cefr": "A2",
+  "insights": [
+    {
+      "skill": "grammar:verb-form",
+      "note": "動詞の形を確認し、基本的な活用を練習する。"
+    },
+    {
+      "skill": "grammar:tense",
+      "note": "時制の使い方を学び、例文を作成してみる。"
+    },
+    {
+      "skill": "grammar:countability",
+      "note": "可算名詞と不可算名詞の違いを理解する。"
+    }
+  ],
+  "disclaimer": "TOEIC is a registered trademark of ETS. This product is not endorsed or approved by ETS."
+}

@@ -1,0 +1,433 @@
+{
+  "raw_correct": 9,
+  "scaled_reading": 230,
+  "provisional_ci": [
+    170,
+    290
+  ],
+  "cefr": "A2",
+  "insights": [],
+  "disclaimer": "TOEIC is a registered trademark of ETS. This product is not endorsed or approved by ETS.",
+  "responses": [
+    {
+      "itemId": "r5_001",
+      "part": "R5",
+      "stem": "The manager ____ the report by Friday.",
+      "options": [
+        "expects",
+        "expecting",
+        "to expect",
+        "expected"
+      ],
+      "answer": 0,
+      "selected": 0,
+      "correct": true,
+      "explanation": "主語 the manager は三人称単数。『〜までに提出を求めている』という恒常的な方針は一般現在で表すのが自然で、動詞は三単現の expects になる。by Friday は期限の副詞句であり、動詞の時制を過去にする根拠にはならない。",
+      "rationales": [
+        "正解。三単現 -s が必要で意味も最も自然。",
+        "進行形は一時的状態を示し文脈に合わない。",
+        "不定詞は補語位置として不適切。文の骨格が崩れる。",
+        "過去形にすると『以前は…だった』の含意になり不自然。"
+      ]
+    },
+    {
+      "itemId": "r5_002",
+      "part": "R5",
+      "stem": "Our team will meet ____ the morning to finalize the plan.",
+      "options": [
+        "on",
+        "in",
+        "at",
+        "by"
+      ],
+      "answer": 1,
+      "selected": 0,
+      "correct": false,
+      "explanation": "morning のような『時間帯』には in を用いる。on は曜日・日付、at は時刻と結び付きやすい前置詞。by the morning は『朝までには』という期限解釈になり、予定された会合の時間帯を言う文意から外れる。",
+      "rationales": [
+        "on は曜日/日付と結び付く。morning には通常用いない。",
+        "正解。『午前中に』の意味で最適。",
+        "at は『9時に』のように時刻と相性がよい。",
+        "by は『遅くとも朝までに』の期限で意味がズレる。"
+      ]
+    },
+    {
+      "itemId": "r5_003",
+      "part": "R5",
+      "stem": "The new policy is intended to ____ productivity across departments.",
+      "options": [
+        "raise",
+        "arise",
+        "raise up",
+        "rising"
+      ],
+      "answer": 0,
+      "selected": 0,
+      "correct": true,
+      "explanation": "『生産性を上げる』は他動詞 raise を用いる。arise は『生じる』の自動詞で目的語を取れず、raise up は口語的・不要な小詞を伴い不自然。rising は分詞形で文型に合わない。",
+      "rationales": [
+        "正解。他動詞で『〜を上げる』。",
+        "自動詞のため目的語 productivity を取れない。",
+        "不必要な up を加えた俗用でこの文脈では不適。",
+        "分詞で文の骨格に合わない。"
+      ]
+    },
+    {
+      "itemId": "r5_004",
+      "part": "R5",
+      "stem": "Employees are encouraged to submit suggestions ____ improving workflow.",
+      "options": [
+        "for",
+        "to",
+        "about",
+        "with"
+      ],
+      "answer": 0,
+      "selected": 0,
+      "correct": true,
+      "explanation": "suggestions for -ing が定型コロケーション。『〜に関する提案』という意味では about も取り得るが、この構文は『改善のための提案』と目的・方向性を示すため for が最適。",
+      "rationales": [
+        "正解。for -ing で『〜のための提案』。",
+        "to は不定詞との競合で不自然。",
+        "about は話題提示でありこの構文意図に弱い。",
+        "with は手段・同伴の意味でズレる。"
+      ]
+    },
+    {
+      "itemId": "r5_005",
+      "part": "R5",
+      "stem": "Ms. Chen was ____ to lead the project due to her experience.",
+      "options": [
+        "selected",
+        "select",
+        "selection",
+        "selecting"
+      ],
+      "answer": 0,
+      "selected": 0,
+      "correct": true,
+      "explanation": "主語 Ms. Chen は選ばれた側なので受動態 was selected が必要。to lead は目的表現で意味上の主語 Ms. Chen とも整合する。他の選択肢は語形・品詞が文の骨格に合わない。",
+      "rationales": [
+        "正解。受動の過去分詞で『選ばれた』。",
+        "原形動詞で述語を作れない。",
+        "名詞で補う位置ではない。",
+        "現在分詞で文の統語が崩れる。"
+      ]
+    },
+    {
+      "itemId": "r5_006",
+      "part": "R5",
+      "stem": "The device comes with a one-year ____ covering parts and labor.",
+      "options": [
+        "warranty",
+        "warning",
+        "guarantee",
+        "assurance"
+      ],
+      "answer": 0,
+      "selected": 0,
+      "correct": true,
+      "explanation": "製品仕様で『1年保証』と言うときの最も一般的な名詞は warranty。guarantee も『保証』の意味を持つが、この定型句では warranty が自然。warning は『警告』、assurance は『確証』寄りで文意が合わない。",
+      "rationales": [
+        "正解。定型句 comes with a one-year warranty。",
+        "警告の意で文脈と無関係。",
+        "意味は近いがこの定型では通常用いない。",
+        "保証ではなく『確証・安心』のニュアンス。"
+      ]
+    },
+    {
+      "itemId": "r5_007",
+      "part": "R5",
+      "stem": "Because the site was under maintenance, customers ____ longer than usual.",
+      "options": [
+        "waited",
+        "were wait",
+        "waiting",
+        "have wait"
+      ],
+      "answer": 0,
+      "selected": 0,
+      "correct": true,
+      "explanation": "原因が過去（was under maintenance）なので結果も過去形 waited が自然。were wait / have wait は助動詞構造が壊れており文法的に不適。waiting は進行形にするための be 動詞が欠けている。",
+      "rationales": [
+        "正解。過去の事実描写に合致。",
+        "be + 原形は不可。were waiting なら可。",
+        "be 動詞を伴わず単独では不可。",
+        "have + 原形は不可。have waited が必要。"
+      ]
+    },
+    {
+      "itemId": "r5_008",
+      "part": "R5",
+      "stem": "Please review the attached draft and provide any ____ by Thursday.",
+      "options": [
+        "feedbacks",
+        "feedback",
+        "informations",
+        "information"
+      ],
+      "answer": 1,
+      "selected": 0,
+      "correct": false,
+      "explanation": "feedback / information は不可算名詞で、複数形 s を付けない。空欄は『意見』の募集なので feedback が最適。information は『情報』で意味もズレる。",
+      "rationales": [
+        "不可算名詞のため複数形不可。",
+        "正解。不可算名詞で形も意味も適合。",
+        "不可算名詞のため複数形不可。",
+        "意味が『情報』で本意と異なる。"
+      ]
+    },
+    {
+      "itemId": "r5_009",
+      "part": "R5",
+      "stem": "The CEO emphasized that the new product must be both affordable ____ reliable.",
+      "options": [
+        "and",
+        "or",
+        "but",
+        "nor"
+      ],
+      "answer": 0,
+      "selected": 0,
+      "correct": true,
+      "explanation": "相関接続詞 both A and B の and が必要。or は二者択一、but は逆接、nor は否定語に続く連結で、いずれも文意に合致しない。",
+      "rationales": [
+        "正解。both A and B の固定。",
+        "二者択一を示し文意が変わる。",
+        "逆接で意味が反転してしまう。",
+        "否定語に続く構造でここでは不可。"
+      ]
+    },
+    {
+      "itemId": "r5_010",
+      "part": "R5",
+      "stem": "All orders placed before noon ____ the same day.",
+      "options": [
+        "ship",
+        "are shipped",
+        "shipped",
+        "shipping"
+      ],
+      "answer": 1,
+      "selected": 0,
+      "correct": false,
+      "explanation": "受け身の一般現在『〜は発送される』が最も明確で誤解がない。『All orders ship…』という能動用法も口語的にはあり得るが、説明書・規約文では受動の are shipped が標準。",
+      "rationales": [
+        "口語では成立するが、規定文では受動が自然。",
+        "正解。受動の一般現在で明確。",
+        "過去分詞単独で述語にならず不完全。",
+        "動名詞/現在分詞で文型が崩れる。"
+      ]
+    },
+    {
+      "itemId": "r5_011",
+      "part": "R5",
+      "stem": "The marketing team is looking for a ____ designer with experience in B2C campaigns.",
+      "options": [
+        "creative",
+        "creation",
+        "creatively",
+        "creativity"
+      ],
+      "answer": 0,
+      "selected": 0,
+      "correct": true,
+      "explanation": "不定冠詞 a の直後は形容詞＋名詞の並びが基本。creation（創造物）/creativity（創造性）は名詞、creatively は副詞で、いずれも designer を直接修飾できない。",
+      "rationales": [
+        "正解。形容詞が名詞 designer を修飾。",
+        "名詞で語順・意味が合わない。",
+        "副詞で語法不適。",
+        "名詞で語法不適。"
+      ]
+    },
+    {
+      "itemId": "r5_012",
+      "part": "R5",
+      "stem": "Due to unexpected demand, the supply of spare parts has been ____.",
+      "options": [
+        "limited",
+        "limiting",
+        "limit",
+        "limits"
+      ],
+      "answer": 0,
+      "selected": 0,
+      "correct": true,
+      "explanation": "have/has been + 過去分詞 の受動完了。状態の結果を述べるため limited が最適。limiting は進行/形容詞用法で別義、limit/limits は動詞の原形/三単現で文型不一致。",
+      "rationales": [
+        "正解。受動完了で『制限されている』。",
+        "進行や形容詞的用法で意味が合わない。",
+        "原形で述語を形成できない。",
+        "三単現動詞で構文不一致。"
+      ]
+    },
+    {
+      "itemId": "r7_001",
+      "part": "R7",
+      "stem": "Notice: The office cafeteria will be closed on Tuesday for equipment maintenance. Employees should bring their own lunch or visit nearby restaurants.",
+      "options": [
+        "The cafeteria is closed every Tuesday.",
+        "Employees cannot eat lunch on Tuesday.",
+        "The cafeteria will not operate on a specific day.",
+        "Only breakfast will be served on Tuesday."
+      ],
+      "answer": 2,
+      "selected": 0,
+      "correct": false,
+      "explanation": "情報は『ある火曜日は設備点検で閉鎖』という一次事実。『毎週』や『食事不可』などの拡大解釈は本文にない。選択肢は原文の言い換えを正確に捉えられるかを問う。",
+      "rationales": [
+        "every の情報は本文にない。",
+        "社内食堂は使えないが昼食自体が不可とは書いていない。",
+        "正解。特定日の休業という要点の言い換え。",
+        "朝食のみ提供の記述はない。"
+      ]
+    },
+    {
+      "itemId": "r7_002",
+      "part": "R7",
+      "stem": "Email: Hi team, the client meeting has been moved from 10 a.m. to 2 p.m. to accommodate travel delays. Please adjust your schedules accordingly.",
+      "options": [
+        "The meeting was canceled.",
+        "The meeting will be held earlier.",
+        "The meeting time has been postponed.",
+        "The location of the meeting changed."
+      ],
+      "answer": 2,
+      "selected": 0,
+      "correct": false,
+      "explanation": "moved from 10 to 2 は『10時から14時へ移した』＝延期を示す。キャンセル・前倒し・場所変更はいずれも本文の事実と矛盾。『遅延に配慮して』の語も後ろ倒しの根拠。",
+      "rationales": [
+        "中止の言及はない。",
+        "時間は遅くなっている。",
+        "正解。時間の後ろ倒し。",
+        "場所は変えていない。"
+      ]
+    },
+    {
+      "itemId": "r7_003",
+      "part": "R7",
+      "stem": "Article: Green Metro plans to add two new train lines by 2027, aiming to reduce commute times by up to 20 percent for suburban riders.",
+      "options": [
+        "Green Metro will reduce fares by 20 percent.",
+        "The expansion is intended to shorten travel times.",
+        "Two lines will open next year.",
+        "The plan targets downtown commuters only."
+      ],
+      "answer": 1,
+      "selected": 0,
+      "correct": false,
+      "explanation": "『up to 20 percent shorter』は主要な目的（通勤時間の短縮）を述べた節。運賃、開業時期、対象地域に関する選択肢は、本文の数字・時期・範囲と食い違う。",
+      "rationales": [
+        "値下げの話ではない。",
+        "正解。目的の言い換え。",
+        "来年ではなく2027年までに。",
+        "郊外の利用者にも言及している。"
+      ]
+    },
+    {
+      "itemId": "r7_004",
+      "part": "R7",
+      "stem": "Message: Reminder—Please submit your monthly expense reports by the 5th of each month to ensure timely reimbursement.",
+      "options": [
+        "Reports are due at the end of the month.",
+        "Reimbursement happens only in December.",
+        "Submitting reports on time helps payment processing.",
+        "Only managers must submit reports."
+      ],
+      "answer": 2,
+      "selected": 0,
+      "correct": false,
+      "explanation": "『払い戻しを円滑にするために毎月5日までに提出』が要点。月末・12月限定・管理職限定といった条件は本文中にない。目的の言い換えを探す設問。",
+      "rationales": [
+        "締切は月末ではなく『毎月5日まで』。",
+        "12月限定の話はない。",
+        "正解。提出の目的（支払いの円滑化）。",
+        "提出対象を管理職に限定していない。"
+      ]
+    },
+    {
+      "itemId": "r7_005",
+      "part": "R7",
+      "stem": "Flyer: Weekend Market—Local farmers will sell fresh produce from 9 a.m. to 1 p.m. at Riverside Park. Bring your own bags.",
+      "options": [
+        "The market sells only packaged goods.",
+        "The event takes place in the evening.",
+        "Visitors are encouraged to carry bags.",
+        "Only farmers can enter the park."
+      ],
+      "answer": 2,
+      "selected": 0,
+      "correct": false,
+      "explanation": "持参を促す Bring your own bags の言い換えが鍵。生鮮販売（fresh produce）・午前（9-13時）・入場条件の記述など、本文の具体と合わない選択肢を除外する。",
+      "rationales": [
+        "fresh produce（生鮮）と矛盾。",
+        "9時〜13時なので夕方ではない。",
+        "正解。持参を促している。",
+        "入場制限に関する記述はない。"
+      ]
+    },
+    {
+      "itemId": "r7_006",
+      "part": "R7",
+      "stem": "Internal Note: The software update improves performance, but some users may need to clear their cache to see changes.",
+      "options": [
+        "The update slows down the software.",
+        "Users will automatically see changes without action.",
+        "Clearing cache might be necessary after the update.",
+        "The update is not about performance."
+      ],
+      "answer": 2,
+      "selected": 0,
+      "correct": false,
+      "explanation": "本文は『性能は改善する』と述べつつ、『変更が見えない場合はキャッシュを消す必要がある』という条件を提示している。自動反映・性能低下・性能無関係はいずれも本文と逆の内容。",
+      "rationales": [
+        "改善と明言しており矛盾。",
+        "必ず自動表示されるとは書いていない。",
+        "正解。キャッシュクリアが必要になる場合がある。",
+        "性能以外が主題という記述ではない。"
+      ]
+    },
+    {
+      "itemId": "r7_007",
+      "part": "R7",
+      "stem": "Review: The hotel is conveniently located near the station, but the rooms are small. Staff were friendly and helpful.",
+      "options": [
+        "The reviewer disliked the staff.",
+        "The location is far from transportation.",
+        "The rooms are spacious.",
+        "The hotel has pros and cons."
+      ],
+      "answer": 3,
+      "selected": 0,
+      "correct": false,
+      "explanation": "ポジ/ネガの両面が明示されており、総合評価として pros and cons（利点と欠点）の表現が最も要約として適切。スタッフや立地に関する否定は本文にない。",
+      "rationales": [
+        "スタッフは friendly and helpful と肯定。",
+        "駅に近い＝交通の便は良い。",
+        "rooms are small と明言されるため広くない。",
+        "正解。長所短所の併記という要点の言い換え。"
+      ]
+    },
+    {
+      "itemId": "r7_008",
+      "part": "R7",
+      "stem": "Memo: To reduce paper waste, the company will adopt digital signatures for internal approvals starting next month.",
+      "options": [
+        "The company will print more documents.",
+        "Paper use is expected to decrease.",
+        "Digital signatures will be optional this year.",
+        "Approvals will stop next month."
+      ],
+      "answer": 1,
+      "selected": null,
+      "correct": null,
+      "explanation": "目的句 To reduce paper waste が方針の理由を示している。したがって紙の使用は『減る見込み』が本文の妥当な含意。印刷増・任意化・承認停止はいずれも本文と矛盾。",
+      "rationales": [
+        "紙の使用を減らす目的であり増やさない。",
+        "正解。採用により紙使用は減る方向。",
+        "来月から導入であって『任意』ではない。",
+        "承認プロセスを止める話ではない。"
+      ]
+    }
+  ]
+}
